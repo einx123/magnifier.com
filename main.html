@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MAGNIFIER</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div class="navbar">
+  <h1>
+    <span class="brand">
+      <span class="m">M</span><span class="a">A</span><span class="g">G</span><span class="n">N</span><span class="i">I</span><span class="f">F</span><span class="i">I</span><span class="e">E</span><span class="r">R</span>
+    </span>
+  </h1>
+  <form action="https://www.google.com/search" method="GET">
+    <input type="text" name="q" placeholder="Search the web" required>
+    <button type="submit">Search</button>
+</form>
+<div id="searchResults"></div>
+    </form>
+  </div>
+</div>
+<div class="button-container">
+    <a href="https://www.X.com" class="button x">X</a>
+    <a href="https://www.instagram.com" class="button instagram">Instagram</a>
+    <a href="https://www.youtube.com" class="button youtube">YouTube</a>
+    <a href="https://www.aparat.com" class="button aparat">Aparat</a>
+    <a href="https://www.facebook.com" class="button facebook">Facebook</a>
+    <a href="https://www.meta.com" class="button meta">Meta</a>
+</div>
+<div class="search-history-container">
+    <div class="magnifier" onclick="toggleSearchHistory()" role="button" tabindex="0" aria-label="Search History">🔍</div>
+    <div class="search-history" id="searchHistory">
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
